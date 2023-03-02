@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace XadrezConsole.Entities.Tabuleiro
+namespace XadrezConsole.Entities.TabuleiroRegras
 {
     internal enum Cor
     {

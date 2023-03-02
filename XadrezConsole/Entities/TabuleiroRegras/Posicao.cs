@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace XadrezConsole.Entities.Tabuleiro
+namespace XadrezConsole.Entities.TabuleiroRegras
 {
     internal class Posicao
     {
-        public int Linhas { get; set; }
+        public int Linha { get; set; }
 
         public int Coluna { get; set; }
 
@@ -16,13 +16,13 @@ namespace XadrezConsole.Entities.Tabuleiro
 
         public Posicao(int linhas, int coluna)
         {
-            Linhas = linhas;
+            Linha = linhas;
             Coluna = coluna;
         }
 
         public override string ToString()
         {
-            return Linhas + ", " + Coluna;
+            return Linha + ", " + Coluna;
         }
     }
 }
